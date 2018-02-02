@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2033,6 +2033,15 @@ Standard 11-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <pinref part="U1" gate="G$1" pin="PB0"/>
 <wire x1="119.38" y1="-22.86" x2="88.9" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-22.86" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB1"/>
+<wire x1="88.9" y1="-27.94" x2="106.68" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-27.94" x2="106.68" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="106.68" y1="-25.4" x2="119.38" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
